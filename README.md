@@ -16,5 +16,11 @@ pip install -r requirements.txt
 ### To run the parser on the test_corpus 
 
 ```
-bash run.sh --train-size 0.8  --test-size 0.1 --bigram-coef 0.2
+bash run.sh --train-size 0.8 --test-size 0.1 --bigram-coef 0.2
+```
+
+### To run the parser on a new setence (with default parameters like previously)
+
+```
+bash run.sh --text-path new_sentence.txt
 ```

@@ -24,3 +24,4 @@ bash run.sh --train-size 0.8 --test-size 0.1 --bigram-coef 0.2 --output-path 'ev
 ```
 bash run.sh --text-path 'new_sentence.txt' --text-output-path 'new_sentence.parser_output'
 ```
+If you run this command, please be aware that it only accepts a file with one sentence.

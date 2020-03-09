@@ -18,6 +18,3 @@ pip install -r requirements.txt
 ```
 bash run.sh --train-size 0.8 --val-size 0.1 --test-size 0.1 --bigram-coef 0.2
 ```
-
-#### WARNING : the parser currently does not give the right tags, due to recurent errors while reconstructing back the tree
-
